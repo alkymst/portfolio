@@ -17,9 +17,9 @@ import portraitImage from '@/images/portrait.jpg'
 function ContactForm() {
   return (
     <form
-      name="Contact"
+      name="contact"
       data-netlify="true"
-      method="POST"
+      // method="POST"
       action="/contact/thank-you"
       className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
     >
@@ -76,6 +76,7 @@ function ContactForm() {
           Join
         </Button>
       </div>
+      <input type="hidden" name="form-name" value="contact" />
     </form>
   )
 }

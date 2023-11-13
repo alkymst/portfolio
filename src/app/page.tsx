@@ -119,8 +119,8 @@ function SocialLink({
 function Newsletter() {
   return (
     <form
-      name="Newsletter"
-      method="POST"
+      name="newsletter"
+      // method="POST"
       data-netlify="true"
       action="/thank-you"
       className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
@@ -145,6 +145,7 @@ function Newsletter() {
           Join
         </Button>
       </div>
+      <input type="hidden" name="form-name" value="newsletter" />
     </form>
   )
 }
