@@ -1,0 +1,99 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+original/.env.example
+original/.eslintrc.json
+original/.gitignore
+original/jsconfig.json
+original/next.config.mjs
+original/package-lock.json
+original/package.json
+original/postcss.config.js
+original/prettier.config.js
+original/README.md
+original/tailwind.config.js
+original/public/favicon.ico
+original/public/NathanielSmithResume.pdf
+original/src/components/ArticleLayout.jsx
+original/src/components/Button.jsx
+original/src/components/Card.jsx
+original/src/components/Container.jsx
+original/src/components/Footer.jsx
+original/src/components/Header.jsx
+original/src/components/Prose.jsx
+original/src/components/Section.jsx
+original/src/components/SimpleLayout.jsx
+original/src/components/SocialIcons.jsx
+original/src/images/avatar.jpg
+original/src/images/avatar.png
+original/src/images/mtn-bk.jpg
+original/src/images/portrait.jpg
+original/src/images/logos/animaginary.svg
+original/src/images/logos/cosmos.svg
+original/src/images/logos/ddev.png
+original/src/images/logos/fru.jpg
+original/src/images/logos/helio-stream.svg
+original/src/images/logos/index.js
+original/src/images/logos/netresults.png
+original/src/images/logos/newmedia.png
+original/src/images/logos/open-shuttle.svg
+original/src/images/logos/planetaria.svg
+original/src/images/logos/riotlabs.png
+original/src/images/photos/image-1.jpg
+original/src/images/photos/image-2.jpg
+original/src/images/photos/image-3.jpg
+original/src/images/photos/image-4.jpg
+original/src/images/photos/image-5.jpg
+original/src/images/photos/index.js
+original/src/lib/formatDate.js
+original/src/lib/generateRssFeed.js
+original/src/lib/getAllArticles.js
+original/src/pages/_app.jsx
+original/src/pages/_document.jsx
+original/src/pages/about.jsx
+original/src/pages/index.jsx
+original/src/pages/projects.jsx
+original/src/pages/services.jsx
+original/src/pages/thank-you.jsx
+original/src/pages/uses.jsx
+original/src/pages/articles/business-prompts-for-chatgpt.mdx
+original/src/pages/articles/creating-a-react-wordpress-plugin.mdx
+original/src/pages/articles/drupal-22-years-still-losing-marketshare.mdx
+original/src/pages/articles/index.jsx
+original/src/pages/articles/death-of-the-advertising-agency/colorful-powder.webp
+original/src/pages/articles/death-of-the-advertising-agency/index.mdx
+original/src/styles/prism.css
+original/src/styles/tailwind.css
+.env

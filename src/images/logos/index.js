@@ -1,0 +1,8 @@
+export { default as logoWebstacks } from './webstacks.svg'
+export { default as logoFruition } from './fruition.svg'
+export { default as logoDdev } from './ddev.svg'
+export { default as logoNewmedia } from './newmedia.svg'
+export { default as logoRiotlabs } from './riotlabs.svg'
+export { default as logoNetresults } from './netresults.svg'
+export { default as logoRoots } from './roots.svg'
+export { default as logoUptimeowl } from './uptimeowl.svg'
