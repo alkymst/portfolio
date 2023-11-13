@@ -236,7 +236,7 @@ function Resume() {
       logo: logoNetresults,
       start: '2008',
       end: '2010',
-    }
+    },
   ]
 
   return (
@@ -250,7 +250,12 @@ function Resume() {
           <Role key={roleIndex} role={role} />
         ))}
       </ol>
-      <Button href="/NathanielSmithResume.pdf" variant="secondary" className="group mt-6 w-full" download>
+      <Button
+        href="/NathanielSmithResume.pdf"
+        variant="secondary"
+        className="group mt-6 w-full"
+        download
+      >
         Download CV
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
@@ -296,8 +301,8 @@ export default async function Home() {
             CTO, full-stack engineer, founder, and amateur music producer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Nathaniel Smith, a fullstack software engineer and entrepreneur based in
-            Salida, CO. I’m the co-founder of Alchemy Intelligence,
+            I’m Nathaniel Smith, a fullstack software engineer and entrepreneur
+            based in Salida, CO. I’m the Director of Technology at Webstacks,
             where we build creative digital solutions for screens and companies
             of all sizes.
           </p>

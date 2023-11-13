@@ -69,43 +69,44 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            <span className='mr-4'>👋🏻</span> I’m Nathan Smith.
+            <span className="mr-4">👋🏻</span> I’m Nathan Smith.
           </h1>
-          <h3 className="mt-4 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-1xl">
-            I live in Salida, CO, where I build creative digital soultions for screens and companies of all sizes.
+          <h3 className="sm:text-1xl mt-4 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100">
+            I live in Salida, CO, where I build creative digital soultions for
+            screens and companies of all sizes.
           </h3>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-              <p>
-                I’m a {new Date().getFullYear() - 1981}-year-old Full-Stack
-                Engineer & UX designer, currently located just outside of
-                Denver, CO. I have been an artist since childhood, and building
-                things online since 2001. I cut my teeth managing, and running a
-                handful of fairly successful ecommerce websites.
-              </p>
-              <p>
-                I have been an artist since childhood, and building things
-                online since 2001. I cut my teeth managing, and running a
-                handful of fairly successful ecommerce websites.
-              </p>
-              <p>
-                I had found my passion for building businesses online, and
-                gathered the skills to rank them. I saw an opportunity to build
-                clean, manageable, SEO friendly websites. My second endeavor was
-                born, The Web Alchemist.
-              </p>
-              <p>
-                Since then I have worked with quite a few StartUps, and
-                corporate clients. I was the lead designer / front-end developer
-                with Net-Results when it was 4 employees. I also ran the agency
-                portion, which later became Blue Riot Labs. I was the acting
-                Lead WordPress Dev for Hearst Digital News for 3 years before
-                they created an in-house agency, which later they offered me a
-                lead role.
-              </p>
-              <p>
-                Today, I’m the founder of Alchemy Intelligence, where we’re
-                working on AI tools for the SMB market.
-              </p>
+            <p>
+              I’m a {new Date().getFullYear() - 1981}-year-old Full-Stack
+              Engineer & UX designer, currently located just outside of Denver,
+              CO. I have been an artist since childhood, and building things
+              online since 2001. I cut my teeth managing, and running a handful
+              of fairly successful ecommerce websites.
+            </p>
+            <p>
+              I have been an artist since childhood, and building things online
+              since 2001. I cut my teeth managing, and running a handful of
+              fairly successful ecommerce websites.
+            </p>
+            <p>
+              I had found my passion for building businesses online, and
+              gathered the skills to rank them. I saw an opportunity to build
+              clean, manageable, SEO friendly websites. My second endeavor was
+              born, The Web Alchemist.
+            </p>
+            <p>
+              Since then I have worked with quite a few StartUps, and corporate
+              clients. I was the lead designer / front-end developer with
+              Net-Results when it was 4 employees. I also ran the agency
+              portion, which later became Blue Riot Labs. I was the acting Lead
+              WordPress Dev for Hearst Digital News for 3 years before they
+              created an in-house agency, which later they offered me a lead
+              role.
+            </p>
+            <p>
+              Today, I’m the Director of Technology at Webstacks, where we’re
+              working on AI tools for the SMB market.
+            </p>
           </div>
         </div>
         <div className="lg:pl-20">
@@ -113,13 +114,25 @@ export default function About() {
             <SocialLink href="https://twitter.com/alkymst" icon={TwitterIcon}>
               Follow on Twitter
             </SocialLink>
-            <SocialLink href="https://instagram.com/alkymst" icon={InstagramIcon} className="mt-4">
+            <SocialLink
+              href="https://instagram.com/alkymst"
+              icon={InstagramIcon}
+              className="mt-4"
+            >
               Follow on Instagram
             </SocialLink>
-            <SocialLink href="https://github.com/alkymst" icon={GitHubIcon} className="mt-4">
+            <SocialLink
+              href="https://github.com/alkymst"
+              icon={GitHubIcon}
+              className="mt-4"
+            >
               Follow on GitHub
             </SocialLink>
-            <SocialLink href="https://www.linkedin.com/in/alkymst" icon={LinkedInIcon} className="mt-4">
+            <SocialLink
+              href="https://www.linkedin.com/in/alkymst"
+              icon={LinkedInIcon}
+              className="mt-4"
+            >
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
