@@ -19,8 +19,8 @@ function ContactForm() {
     <form
       name="Contact"
       data-netlify="true"
-      method="POST"
-      action="thank-you"
+      // method="POST"
+      action="/contact/thank-you"
       className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
     >
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
@@ -33,6 +33,7 @@ function ContactForm() {
       </p>
       <div className="mt-6 flex">
         <input
+          name="name"
           type="text"
           placeholder="Name"
           aria-label="Name"
@@ -42,6 +43,7 @@ function ContactForm() {
       </div>
       <div className="mt-6 flex">
         <input
+          name="email"
           type="email"
           placeholder="Email"
           aria-label="Email"
@@ -51,6 +53,7 @@ function ContactForm() {
       </div>
       <div className="mt-6 flex">
         <input
+          name="phone"
           type="phone"
           placeholder="Phone number"
           aria-label="Phone number"
@@ -60,6 +63,7 @@ function ContactForm() {
       </div>
       <div className="mt-6 flex">
         <textarea
+          name="message"
           rows={4}
           placeholder="Message"
           aria-label="Message"

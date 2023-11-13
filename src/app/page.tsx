@@ -133,6 +133,7 @@ function Newsletter() {
       </p>
       <div className="mt-6 flex">
         <input
+          name="email"
           type="email"
           placeholder="Email address"
           aria-label="Email address"
