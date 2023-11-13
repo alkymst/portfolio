@@ -25,7 +25,7 @@ function ContactForm() {
         <span className="ml-3">Shoot me a message</span>
       </h2>
       <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-        If you're in the neighborhood, feel free to drop by my office. I'm always up for a good chat over a cup of coffee.
+        If you’re in the neighborhood, feel free to drop by my office. I’m always up for a good chat over a cup of coffee.
       </p>
       <div className="mt-6 flex">
         <input
@@ -127,19 +127,19 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I'm thrilled that you're reaching out. Whether you have a question, want to collaborate, or just want to say hello, I'm all ears. Your thoughts and inquiries are important to me, and I'm committed to responding as promptly as possible.
+                I’m thrilled that you’re reaching out. Whether you have a question, want to collaborate, or just want to say hello, I’m all ears. Your thoughts and inquiries are important to me, and I’m committed to responding as promptly as possible.
               </p>
               <h3 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
                 Work With Me:
               </h3>
               <p>
-                If you're interested in working together, please provide some details about your project or idea. The more information you can share, the better I can understand your needs. Let's create something amazing together!
+                If you’re interested in working together, please provide some details about your project or idea. The more information you can share, the better I can understand your needs. Let’s create something amazing together!
               </p>
               <h3 className="text-1xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
                 Visit My Office:
               </h3>
               <p>
-                If you're in the neighborhood, feel free to drop by my office. I'm always up for a good chat over a cup of coffee.
+                If you’re in the neighborhood, feel free to drop by my office. I’m always up for a good chat over a cup of coffee.
               </p>
           </div>
         </div>
