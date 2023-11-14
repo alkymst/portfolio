@@ -73,7 +73,7 @@ function ContactForm() {
       </div>
       <div className="mt-6 flex">
         <Button type="submit" className="flex-auto">
-          Join
+          Contact Me
         </Button>
       </div>
       <input type="hidden" name="form-name" value="contact" />
