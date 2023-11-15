@@ -209,7 +209,7 @@ function Resume() {
     },
     {
       company: 'Fruition',
-      title: 'Chief Technology Officer',
+      title: 'CTO',
       start: '2021',
       logo: logoFruition,
       end: '2022',
